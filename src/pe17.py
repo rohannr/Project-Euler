@@ -28,8 +28,7 @@ def to_words(num):
 total = 0
 for i in range(1,1001):
 	length = len(to_words(i).replace(" ", "").replace("-", ""))
-	print to_words(i).replace(" ", "").replace("-", "")
 	total+= length
 
 
-print total
+print 
