@@ -1,5 +1,5 @@
 
-n = 2000000
+n = 30
 primes = [[x, True] for x in range(0,n)]
 
 
